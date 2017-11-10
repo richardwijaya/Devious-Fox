@@ -9,8 +9,7 @@ package mygame;
  *
  * @author Ravi
  */
-public class Score{
-  private int score;
+public class CurrentScore extends Score{
   
   public Score(){
     score = 0;
