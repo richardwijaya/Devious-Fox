@@ -10,10 +10,17 @@ package mygame;
  * @author Ravi
  */
 public class Score{
-  private static int score;
+  private int score;
+  
+  public Score(){
+    score = 0;
+  }
+  
+  public int getScore(){
+    score++;
+  }
   
   public int updateScore(){
     score++;
-    return score;
   }
 }
