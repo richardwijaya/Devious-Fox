@@ -22,4 +22,5 @@ public class CurrentScore extends Score{
   public int updateScore(){
     score++;
   }
+  
 }
