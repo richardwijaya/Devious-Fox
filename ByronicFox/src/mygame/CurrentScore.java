@@ -7,7 +7,7 @@ package mygame;
 
 /**
  *
- * @author Ravi
+ * @author Richard
  */
 public class CurrentScore extends Score{
   
